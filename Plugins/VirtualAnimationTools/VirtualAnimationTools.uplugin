@@ -1,0 +1,37 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "5.0.0",
+	"FriendlyName": "VirtualAnimationTools",
+	"Description": "Plugin for fast processing of animations data",
+	"Category": "Animation",
+	"CreatedBy": "ZhangJiaBin",
+	"CreatedByURL": "https://www.youtube.com/channel/UCaszPzj8fTxpeNjqaiTbLWw?view_as=subscriber",
+	"DocsURL": "https://www.youtube.com/watch?v=rOxrlTVgFBw&t=18s",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/afb5d0078ab343b0bfc684d0d05fc951",
+	"SupportURL": "https://discord.gg/zdhu4NQwgb",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VirtualAnimationTools",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "VirtualAnimationToolsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
